@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 220" width="100%" height="100%">
+  <rect width="500" height="220" rx="18" fill="#06100D"/>
+  <text x="250" y="110" font-family="Outfit, sans-serif" font-size="64" font-weight="700" fill="#2CE59B" text-anchor="middle">GX<tspan fill="#F4C542">codev</tspan></text>
+  <text x="250" y="160" font-family="Outfit, sans-serif" font-size="20" font-weight="500" fill="#BFE8D0" text-anchor="middle" letter-spacing="3">CÓDIGO · DESIGN · PERFORMANCE</text>
+</svg>

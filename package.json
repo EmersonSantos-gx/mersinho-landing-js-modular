@@ -1,0 +1,15 @@
+{
+  "name": "mersinho-landing-js-modular",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Landing page de parceiros As Aventuras de Mersinho — JavaScript Modular (ES Modules)",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.4.0"
+  }
+}

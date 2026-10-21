@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="100%" height="100%">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#A8D8F0"/>
+      <stop offset="65%" stop-color="#FFF9EF"/>
+      <stop offset="100%" stop-color="#BFE8D0"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#sky)"/>
+  <circle cx="650" cy="140" r="70" fill="#FFE6A0" stroke="#355C7D" stroke-width="6"/>
+  <!-- Nuvens de sonhos / profissões -->
+  <g transform="translate(80, 120)">
+    <rect x="0" y="0" width="260" height="90" rx="45" fill="#FFFFFF" stroke="#355C7D" stroke-width="5"/>
+    <text x="130" y="55" font-family="Outfit, sans-serif" font-size="26" font-weight="700" fill="#355C7D" text-anchor="middle">Posso ser o que</text>
+  </g>
+  <g transform="translate(110, 200)">
+    <rect x="0" y="0" width="220" height="75" rx="37" fill="#FFE6A0" stroke="#355C7D" stroke-width="5"/>
+    <text x="110" y="48" font-family="Outfit, sans-serif" font-size="26" font-weight="700" fill="#355C7D" text-anchor="middle">eu quiser!</text>
+  </g>
+  <!-- Ícones de profissões (Médico, Engenheiro, Professor, Tecnologia) -->
+  <g transform="translate(430, 240)">
+    <circle cx="60" cy="60" r="52" fill="#FFFFFF" stroke="#355C7D" stroke-width="5"/>
+    <text x="60" y="75" font-size="45" text-anchor="middle">🩺</text>
+    <circle cx="190" cy="60" r="52" fill="#FFFFFF" stroke="#355C7D" stroke-width="5"/>
+    <text x="190" y="75" font-size="45" text-anchor="middle">👷</text>
+    <circle cx="60" cy="185" r="52" fill="#FFFFFF" stroke="#355C7D" stroke-width="5"/>
+    <text x="60" y="200" font-size="45" text-anchor="middle">📚</text>
+    <circle cx="190" cy="185" r="52" fill="#FFFFFF" stroke="#355C7D" stroke-width="5"/>
+    <text x="190" y="200" font-size="45" text-anchor="middle">💻</text>
+  </g>
+  <!-- Gramado do parque -->
+  <path d="M0 720 Q400 660 800 720 L800 1000 L0 1000 Z" fill="#BFE8D0" stroke="#355C7D" stroke-width="6"/>
+  <!-- Ilustração central do personagem -->
+  <g transform="translate(220, 440)">
+    <circle cx="180" cy="140" r="95" fill="#FFC9B8" stroke="#355C7D" stroke-width="6"/>
+    <text x="180" y="168" font-size="95" text-anchor="middle">👦🏽</text>
+    <rect x="60" y="260" width="240" height="90" rx="28" fill="#355C7D"/>
+    <text x="180" y="315" font-family="Outfit, sans-serif" font-size="30" font-weight="700" fill="#FFFFFF" text-anchor="middle">A Turma Mersinho</text>
+  </g>
+  <text x="400" y="940" font-family="Outfit, sans-serif" font-size="22" font-weight="500" fill="#2B3F52" text-anchor="middle">Substitua por sua imagem em assets/img/hero-mersinho.png</text>
+</svg>

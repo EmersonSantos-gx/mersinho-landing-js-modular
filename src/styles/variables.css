@@ -1,0 +1,18 @@
+/* ==========================================================================
+   Variáveis do Design System — As Aventuras de Mersinho
+   ========================================================================== */
+:root {
+  --font-destaque: "Outfit", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-texto: "Outfit", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --azul-ceu: #A8D8F0;
+  --verde-menta: #BFE8D0;
+  --amarelo: #FFE6A0;
+  --pessego: #FFC9B8;
+  --lilas: #D8C8F0;
+  --azul-contorno: #355C7D;
+  --creme: #FFF9EF;
+  --texto: #2B3F52;
+  --branco: #FFFFFF;
+  --radius: 24px;
+  --shadow: 0 10px 30px rgba(53, 92, 125, 0.12);
+}

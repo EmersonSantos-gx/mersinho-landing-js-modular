@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>As Aventuras de Mersinho | Seja parceiro</title>
+  <meta name="description" content="As Aventuras de Mersinho: uma plataforma de comunicação humanizada que aproxima marcas e instituições das comunidades por meio de educação, histórias e ações sociais.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./src/styles/main.css">
+</head>
+<body>
+  <div id="app"></div>
+
+  <script type="module" src="./src/main.js"></script>
+  <script>
+    // Aviso amigável caso o arquivo seja aberto via duplo-clique (file://) em vez do Live Server no VS Code
+    if (window.location.protocol === 'file:') {
+      document.getElementById('app').innerHTML = `
+        <div style="max-width: 640px; margin: 4rem auto; padding: 2rem; background: #FFFFFF; border: 3px solid #355C7D; border-radius: 24px; font-family: sans-serif; line-height: 1.6;">
+          <h2 style="color: #355C7D; margin-bottom: 1rem;">Abra com o Live Server no VS Code</h2>
+          <p>Este projeto utiliza <strong>JavaScript Modular (ES Modules)</strong> com componentes separados. Por segurança dos navegadores (CORS), módulos ES6 precisam ser servidos via HTTP local.</p>
+          <ol style="margin: 1rem 0 0 1.4rem;">
+            <li>No VS Code, clique com o botão direito no arquivo <code>index.html</code> e selecione <strong>"Open with Live Server"</strong> (ou clique em <strong>Go Live</strong> no canto inferior direito).</li>
+            <li>Ou, pelo terminal do VS Code, execute: <code>npm install && npm run dev</code> (ou <code>npx serve .</code>).</li>
+          </ol>
+        </div>
+      `;
+    }
+  </script>
+</body>
+</html>
